@@ -4,6 +4,13 @@
     --primary-font: 'Cabin', sans-serif;
 }
 
+h2 {
+    font-size: 64px;
+}
+
+p {
+    font-size: 16px;
+}
 
 .hero {
     color: var(--primary-color);
@@ -16,11 +23,11 @@
     font-size: 90px;
 }
 
-.btn {
+.btn-branding {
     background-color: var(--secondary-color);
     color: white;
 }
 
-.btn:hover {
+.btn-branding:hover {
     color: white;
 }
