@@ -31,3 +31,7 @@ p {
 .btn-branding:hover {
     color: white;
 }
+
+img {
+    border-radius: 35px;
+}
