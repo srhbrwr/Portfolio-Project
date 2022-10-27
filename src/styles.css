@@ -1,3 +1,23 @@
-body {
-    font-family: 'Rubik', sans-serif;
+:root {
+    --primary-color: #96695e;
+    --secondary-color: #c8a99c;
+
+}
+
+.hero {
+    color: var(--primary-color);
+    padding: 196px;
+}
+
+.hero h1 {
+    font-size: 90px;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.btn:hover {
+    color: white;
 }
