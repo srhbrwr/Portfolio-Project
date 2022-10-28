@@ -35,3 +35,30 @@ p {
 img {
     border-radius: 35px;
 }
+ 
+@media (max-width: 900px) {
+    .hero {
+        padding: 90px;
+    }
+    
+    .hero h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .hero h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .project-info {
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
