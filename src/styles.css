@@ -9,7 +9,8 @@ h2 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
+    opacity: 0.9;
 }
 
 .hero {
@@ -38,7 +39,7 @@ img {
  
 @media (max-width: 900px) {
     .hero {
-        padding: 90px;
+        padding: 60px;
     }
     
     .hero h1 {
@@ -55,10 +56,7 @@ img {
         font-size: 20px;
     }
 
-    .project-info {
+    .weather-app {
         padding: 20px;
-        font-size: 20px;
-        text-align: center;
     }
-
 }
