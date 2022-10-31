@@ -36,6 +36,24 @@ p {
 img {
     border-radius: 35px;
 }
+
+.about-section {
+    padding: 150px;
+}
+
+.about-section h1 {
+    font-size: 65px;
+    color: var(--primary-color);
+}
+
+.about-section h2 {
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.about-section p {
+    font-size: 16px;
+}
  
 @media (max-width: 900px) {
     .hero {
@@ -58,5 +76,14 @@ img {
 
     .weather-app {
         padding: 20px;
+    }
+
+    .about-section {
+        text-align: center;
+        padding: 60px;
+    }
+
+    .about-section h1 {
+        font-size: 45px;
     }
 }
