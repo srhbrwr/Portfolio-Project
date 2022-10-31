@@ -37,22 +37,26 @@ img {
     border-radius: 35px;
 }
 
-.about-section {
+.content-container {
     padding: 150px;
 }
 
-.about-section h1 {
+.content-container h1 {
     font-size: 65px;
     color: var(--primary-color);
 }
 
-.about-section h2 {
+.content-container h2 {
     font-size: 18px;
     color: var(--primary-color);
 }
 
-.about-section p {
+.content-container p {
     font-size: 16px;
+}
+
+.content-container h3 {
+    color: var(--primary-color);
 }
  
 @media (max-width: 900px) {
@@ -78,12 +82,16 @@ img {
         padding: 20px;
     }
 
-    .about-section {
+    .content-container {
         text-align: center;
         padding: 60px;
     }
 
-    .about-section h1 {
+    .content-container h1 {
         font-size: 45px;
+    }
+
+    .content-container h3 {
+        font-size: 20px;
     }
 }
