@@ -13,6 +13,10 @@ p {
     opacity: 0.9;
 }
 
+.logo {
+    max-height: 40px;
+}
+
 .hero {
     color: var(--primary-color);
     padding: 150px;
@@ -43,6 +47,7 @@ p {
 
 .contact-link:hover {
     color: white;
+    text-decoration: none;
 }
 
 img {
