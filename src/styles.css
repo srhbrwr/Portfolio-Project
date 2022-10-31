@@ -33,6 +33,18 @@ p {
     color: white;
 }
 
+.contact-link {
+    color: white;
+    background: var(--primary-color);
+    padding: 10px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+}
+
+.contact-link:hover {
+    color: white;
+}
+
 img {
     border-radius: 35px;
 }
