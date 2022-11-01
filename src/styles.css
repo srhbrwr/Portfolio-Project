@@ -75,6 +75,31 @@ img {
 .content-container h3 {
     color: var(--primary-color);
 }
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+footer .email-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: white;
+}
  
 @media (max-width: 900px) {
     .hero {
