@@ -13,6 +13,11 @@ p {
     opacity: 0.9;
 }
 
+.contact-box h4 {
+    font-size: 48px;
+    color: white;
+}
+
 .logo {
     max-height: 40px;
 }
@@ -74,6 +79,12 @@ img {
 
 .content-container h3 {
     color: var(--primary-color);
+}
+
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
 }
 
 footer .email-link {
