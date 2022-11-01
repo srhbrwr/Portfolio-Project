@@ -111,6 +111,19 @@ footer .social-links a {
 footer .social-links a:hover {
     color: white;
 }
+
+p .coded-by a {
+    font-size: 10px;
+}
+
+footer .github-link {
+    color: var(--primary-color);
+}
+
+footer .github-link:hover {
+    text-decoration: none;
+    color: var(--primary-color);
+}
  
 @media (max-width: 900px) {
     .hero {
