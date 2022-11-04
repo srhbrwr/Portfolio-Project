@@ -1,7 +1,10 @@
 :root {
     --primary-color: #96695e;
     --secondary-color: #c8a99c;
-    --primary-font: 'Cabin', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 h2 {
@@ -25,7 +28,6 @@ p {
 .hero {
     color: var(--primary-color);
     padding: 150px;
-    font-family: var(--primary-font);
     background: #FAEBD8;
 }
 
