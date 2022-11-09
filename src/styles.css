@@ -184,6 +184,14 @@ footer .github-link:hover {
         font-size: 20px;
     }
 
+    .skills .fa-solid {
+        font-size: 60px;
+    }
+
+    .skills .fa-brands {
+        font-size: 60px;
+    }
+
     .content-container .about-image {
         width: 300px;
     }
