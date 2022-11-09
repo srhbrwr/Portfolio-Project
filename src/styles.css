@@ -83,6 +83,22 @@ img {
     color: var(--primary-color);
 }
 
+.skills {
+    padding: 20px;
+}
+
+.skills .fa-brands {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 35px;
+}
+
+.skills .fa-solid {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 35px;
+}
+
 footer .contact-box {
     background: var(--secondary-color);
     padding: 30px 120px;
