@@ -28,7 +28,7 @@ p {
 .hero {
     color: var(--primary-color);
     padding: 150px;
-    background: #FAEBD8;
+    background: #f9eee1;
 }
 
 .hero h1 {
