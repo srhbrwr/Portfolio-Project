@@ -28,7 +28,6 @@ p {
 .hero {
     color: var(--primary-color);
     padding: 150px;
-    background: #f9eee1;
 }
 
 .hero h1 {
@@ -55,6 +54,10 @@ p {
 .contact-link:hover {
     color: white;
     text-decoration: none;
+}
+
+.contact-info {
+    text-align: center;
 }
 
 img {
