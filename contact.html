@@ -36,31 +36,72 @@
   </div>
 </nav>
 
-    <div class="content-container container">
-        <div class="content contact-info">
-            <h1 class="text-center mb-5">Let's get in touch!</h1>
-            <br>
-            <h3 class="contact-info mb-3">Email</h3>
-            <p>
-                <a href="mailto:designedby.sarahb@gmail.com" title="Email Sarah" class="contact-link shadow">designedby.sarahb@gmail.com</a>
-            </p>
+<div class="content-container container">
+      <div class="content">
+        <h1 class="mb-5 text-center hero">Let's get in touch</h1>
+        <div class="row">
+          <div class="col-md-8">
+            <form
+              action="https://formspree.io/f/xgeqqjbp"
+              method="POST"
+              class="border p-3 rounded mb-3"
+            >
+              <div class="mb-3">
+                <label class="form-label"> Your email: </label>
+                <input
+                  type="email"
+                  name="_replyto"
+                  class="form-control"
+                  required
+                  autofocus
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label"> Your message: </label>
+                <textarea
+                  name="message"
+                  class="form-control"
+                  required
+                ></textarea>
+              </div>
 
-            <h3 class="contact-info mt-5 mb-3">LinkedIn</h3>
+              <button type="submit" class="btn btn-branding contact-link">Send</button>
+            </form>
+          </div>
+          <div class="col-md-4 mt-5">
+            <h5 class="mb-5 additional-header">Additional Links</h5>
             <p>
-                <a href="https://www.linkedin.com/in/sarah-m-brewer/" title="LinkedIn Profile" target="_blank" class="contact-link shadow">Connect with me</a>
+              <a href="https://www.linkedin.com/in/sarah-m-brewer/" class="contact-link" target="_blank">
+                LinkedIn
+              </a>
             </p>
-
-            <h3 class="contact-info mt-5 mb-3">Instagram</h3>
+            <br />
             <p>
-                <a href="https://www.instagram.com/sarahbarelos/" title="Instagram Page" target="_blank" class="contact-link shadow">@sarahbarelos</a>
+              <a
+                href="https://www.instagram.com/sarahbarelos"
+                target="_blank" class="contact-link"
+              >
+                Instagram
+              </a>
             </p>
-            <h3 class="contact-info mt-5 mb-3">Ready to get to work?</h3>
-            <p>
-              <a href="https://sarahbarelos.hbportal.co/schedule/6373bfe9ad2b3a0a893763b4" title="Honeybook schedule" target="_blank" class="contact-link shadow">Schedule a free consultation here!</a>
-            </p>
+          </div>
         </div>
+      </div>
+      <hr />
+    </div>
   <footer>
-    <p class="h6 text-center mt-5">
+    <div class="social-links d-flex justify-content-center mb-5 mt-5">
+      <a href="https://github.com/srhbrwr" title="Github Site" target="_blank">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+            <a href="https://instagram.com/sarahbarelos" title="Instagram Page" target="_blank">
+        <i class="fab fa-instagram" aria-hidden="true"></i>
+      </a>
+            <a href="https://www.linkedin.com/in/sarah-m-brewer/" title="LinkedIn Profile" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+      </a>
+    </div>
+    <p class="h6 text-center">
       👩🏻‍💻 Coded by Sarah. Open-sourced on 
       <span>
         <a href="https://github.com/srhbrwr/Portfolio-Project" title="Github Site" class="github-link" target="_blank">Github</a>
