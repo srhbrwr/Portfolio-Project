@@ -38,6 +38,9 @@ p {
     background-color: rgb(247, 241, 234);
 }
 
+.skill-section {
+}
+
 .btn-branding {
     background-color: var(--secondary-color);
     color: white;
