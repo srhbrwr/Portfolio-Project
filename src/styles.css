@@ -92,13 +92,18 @@ p {
     color: var(--primary-color);
 }
 
-.content-container .about-image {
-    margin-bottom: 0;
-    margin-right: 0;
+.content-container .service {
+    border: 1px solid rgb(189, 188, 188);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.content-container .services {
+    padding: 5px;
 }
 
 .skills {
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .skills .fa-brands {
