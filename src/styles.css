@@ -166,7 +166,7 @@ footer .github-link:hover {
     text-decoration: none;
     color: var(--primary-color);
 }
- 
+
 @media (max-width: 900px) {
     .hero {
         padding: 60px;
