@@ -35,6 +35,10 @@ p {
     font-size: 90px;
 }
 
+.main {
+    background-color: rgb(247, 241, 234);
+}
+
 .btn-branding {
     background-color: var(--secondary-color);
     color: white;
@@ -62,9 +66,7 @@ p {
     padding: 20px;
 }
 
-img {
-    border-radius: 35px;
-}
+
 
 .content-container {
     padding-top: 50px;
