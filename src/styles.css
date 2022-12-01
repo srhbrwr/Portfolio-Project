@@ -28,7 +28,6 @@ p {
 .hero {
     color: var(--primary-color);
     padding: 120px;
-    background-color: rgb(247, 241, 234);
 }
 
 .hero h1 {
