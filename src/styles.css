@@ -30,6 +30,10 @@ p {
     padding: 120px;
 }
 
+.hero h3 {
+    color: #c8a99c;
+}
+
 .hero h1 {
     font-size: 90px;
 }
