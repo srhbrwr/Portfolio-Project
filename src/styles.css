@@ -196,7 +196,6 @@ footer .github-link:hover {
 
     .content-container {
         text-align: center;
-        padding: 60px;
     }
 
     .content-container h1 {
@@ -205,6 +204,11 @@ footer .github-link:hover {
 
     .content-container h3 {
         font-size: 20px;
+    }
+
+    .content-container .services {
+        padding: 0;
+        margin: 0;
     }
 
     .skills .fa-solid {
