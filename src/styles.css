@@ -122,6 +122,11 @@ p {
     margin-left: 2px;
 }
 
+img.services-image {
+    opacity: 0.6;
+    border-radius: 15%;
+}
+
 footer {
     text-align: center;
 }
